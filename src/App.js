@@ -20,7 +20,6 @@ class App extends Component {
   }
   getWaistExercise = (event) => {
     let arg = event.target.getAttribute('data-arg');
-    console.log("OM SAI RAM");
     var options = {
       method: 'GET',
       url: 'https://exercisedb.p.rapidapi.com/exercises/bodyPart/' + arg,
