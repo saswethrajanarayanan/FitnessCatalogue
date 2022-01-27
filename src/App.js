@@ -26,7 +26,7 @@ class App extends Component {
       url: 'https://exercisedb.p.rapidapi.com/exercises/bodyPart/' + arg,
       headers: {
         'x-rapidapi-host': 'exercisedb.p.rapidapi.com',
-        'x-rapidapi-key': '4cf8dff21dmsh66fa5bcbd91b09fp14b18ajsne0c6cfe5cb10'
+        'x-rapidapi-key': '****'
       }
     };
     this.setState({check: true});
